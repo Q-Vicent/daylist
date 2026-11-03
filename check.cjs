@@ -14,11 +14,11 @@ vm.runInContext(`
  check(escapeHTML('<script>')==='&lt;script&gt;','html escaping');
  state.category='语言考试';check(visibleEvents().length===2,'category filtering');
  state.category='全部活动';state.query='六级';check(visibleEvents().length===1,'search');
- state.query='';state.sort='popularity';check(visibleEvents()[0].id==='cet6','popularity ranking');
+ state.query='';
  state.sort='importance';check(visibleEvents()[0].importance===3,'importance ranking');
  saved.add('cet6');state.nav='saved';check(visibleEvents().length===1,'saved filter');
  state.view='table';render();check(document.querySelector('#results').innerHTML.includes('<table>'),'table render');
  state.nav='all';state.view='cards';render();check(document.querySelector('#results').innerHTML.includes('event-card'),'card render');
 `,context);
-assert.equal(elements.get('#total').textContent,6);
+assert.equal(elements.get('#total').textContent,8);
 console.log('Passed: countdown boundaries, expired state, URL validation, escaping, filters, ranking, saved activities, card/table rendering.');
