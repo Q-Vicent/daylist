@@ -44,7 +44,7 @@ async function main(){
   if(run('git',['branch','--show-current'])!=='main')throw new Error('Publish from main only.');
   if(run('git',['remote','get-url','origin'])!=='https://github.com/Q-Vicent/daylist.git')throw new Error('Unexpected origin. Check the repository before publishing.');
   console.log('Pushing committed main (45-second timeout, interactive login disabled)...');
-  run('git',['push','origin','main']);
+  run('git',['-c','credential.username=Q-Vicent','push','origin','main']);
   const local=run('git',['rev-parse','HEAD']);
   const remote=run('git',['ls-remote','origin','refs/heads/main']).split(/\s+/)[0];
   if(local!==remote)throw new Error('Remote main does not match the local commit.');
