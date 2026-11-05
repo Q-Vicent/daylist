@@ -9,6 +9,7 @@ const SEED=[
  {id:'cet4',title:'大学英语四级笔试',category:'语言考试',deadline:'2026-12-12T09:00:00+08:00',description:'12月12日笔试，具体时间以准考证为准',importance:3,popularity:0,url:'https://cet.neea.cn/html1/report/2609/1-1.htm',sample:true,label:'12月12日笔试 · 具体时间待确认'},
  {id:'cet6',title:'大学英语六级笔试',category:'语言考试',deadline:'2026-12-12T15:00:00+08:00',description:'12月12日笔试，具体时间以准考证为准',importance:3,popularity:0,url:'https://cet.neea.cn/html1/report/2609/1-1.htm',sample:true,label:'12月12日笔试 · 具体时间待确认'},
  {id:'transfer-register',title:'转专业',category:'校园活动',deadline:'2026-11-29T23:59:59+08:00',description:'报名：11月14日—24日；笔试：11月26日左右；面试：11月29日左右',importance:3,popularity:0,url:'',sample:true,milestones:[{deadline:'2026-11-24T23:59:59+08:00',label:'报名截止 · 11月24日（时间待确认）'},{deadline:'2026-11-26T23:59:59+08:00',label:'笔试 · 11月26日左右'},{deadline:'2026-11-29T23:59:59+08:00',label:'面试 · 11月29日左右'}]},
+ {id:'campus-run',title:'校园跑',category:'校园活动',deadline:'2027-01-03T23:59:59+08:00',description:'1月3日截止，记得完成校园跑',importance:2,popularity:0,url:'',sample:true,label:'1月3日截止 · 具体时刻待确认'},
  {id:'finals-week',title:'期末周',category:'学业考试',deadline:'2027-01-11T00:00:00+08:00',description:'1月11日—1月20日，倒计时至期末周开始',importance:3,popularity:0,url:'',sample:true,label:'1月11日—1月20日 · 倒计时至开始'},
  {id:'holiday',title:'放假',category:'校园活动',deadline:'2027-01-20T00:00:00+08:00',description:'1月20日放假',importance:2,popularity:0,url:'',sample:true,label:'1月20日 · 具体时间待确认'}
 ];
