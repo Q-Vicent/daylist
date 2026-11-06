@@ -23,5 +23,5 @@ vm.runInContext(`
  state.view='table';render();check(document.querySelector('#results').innerHTML.includes('<table>'),'table render');
  state.nav='all';state.view='cards';render();check(document.querySelector('#results').innerHTML.includes('event-card'),'card render');
 `,context);
-assert.equal(elements.get('#total').textContent,7);
+assert.equal(elements.get('#total').textContent,8);
 console.log('Passed: countdown boundaries, expired state, URL validation, escaping, filters, ranking, saved activities, card/table rendering.');

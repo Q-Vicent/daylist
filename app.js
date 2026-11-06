@@ -5,6 +5,7 @@ const CATEGORIES={
   '校园活动':{color:'#628e9a',background:'#e5f0f2',icon:'✳'}
 };
 const SEED=[
+ {id:'career-planning-register',title:'职业规划大赛报名',category:'校园活动',deadline:'2026-11-08T23:59:59+08:00',description:'11月8日报名截止，记得完成报名',importance:3,popularity:0,url:'',sample:true,label:'11月8日报名截止 · 具体时刻待确认'},
  {id:'math',title:'全国大学生数学竞赛初赛',category:'学科竞赛',deadline:'2026-11-14T09:00:00+08:00',description:'11月14日 09:00—11:30',importance:3,popularity:0,url:'https://www.cmathc.org.cn/tzgg/545.html',sample:true,label:'11月14日 09:00 开考'},
  {id:'cet4',title:'大学英语四级笔试',category:'语言考试',deadline:'2026-12-12T09:00:00+08:00',description:'12月12日笔试，具体时间以准考证为准',importance:3,popularity:0,url:'https://cet.neea.cn/html1/report/2609/1-1.htm',sample:true,label:'12月12日笔试 · 具体时间待确认'},
  {id:'cet6',title:'大学英语六级笔试',category:'语言考试',deadline:'2026-12-12T15:00:00+08:00',description:'12月12日笔试，具体时间以准考证为准',importance:3,popularity:0,url:'https://cet.neea.cn/html1/report/2609/1-1.htm',sample:true,label:'12月12日笔试 · 具体时间待确认'},
